@@ -29,7 +29,7 @@ namespace FxWA
 
         }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e) 
         {
             TPPips = int.Parse(tbTPPips.Text);
             SLPips = int.Parse(tbSLPips.Text);
